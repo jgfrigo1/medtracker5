@@ -1,6 +1,7 @@
+
 import React, { createContext, useContext, ReactNode, useState, useEffect, useCallback } from 'react';
-import type { AppContextType, HealthData, StandardPattern, DailyData, User, UserDataBundle } from '../types';
-import * as GoogleDriveService from '../services/googleDriveService';
+import type { AppContextType, HealthData, StandardPattern, DailyData, User, UserDataBundle } from '../types.ts';
+import * as GoogleDriveService from '../services/googleDriveService.ts';
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
 

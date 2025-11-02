@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.tsx';
 
 export default function LoginScreen() {
     const { login } = useAppContext();

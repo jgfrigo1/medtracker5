@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.tsx';
 import { Plus, Edit, Trash2, Check } from 'lucide-react';
 
 export default function MedicationManager() {

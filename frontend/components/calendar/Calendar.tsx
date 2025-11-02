@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, getDay, addMonths, subMonths, isSameDay, isToday } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useAppContext } from '../../context/AppContext';
-import type { TimeSlotData, DailyData } from '../../types';
+import { useAppContext } from '../../context/AppContext.tsx';
+import type { TimeSlotData, DailyData } from '../../types.ts';
 
 interface CalendarProps {
     currentDate: Date;

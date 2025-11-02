@@ -1,8 +1,9 @@
+
 import React, { useMemo } from 'react';
-import { useAppContext } from '../../context/AppContext';
+import { useAppContext } from '../../context/AppContext.tsx';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceDot } from 'recharts';
 import { Pill, MessageSquare } from 'lucide-react';
-import type { DailyData, TimeSlotData } from '../../types';
+import type { DailyData, TimeSlotData } from '../../types.ts';
 
 interface DataDisplayProps {
     selectedDate: string;

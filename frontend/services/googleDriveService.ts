@@ -1,6 +1,7 @@
+
 // This service encapsulates all interactions with Google's APIs.
 
-import type { UserDataBundle } from '../types';
+import type { UserDataBundle } from '../types.ts';
 
 // Assumes `process.env` is populated by the build environment.
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID; 

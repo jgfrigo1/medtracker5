@@ -1,7 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
-import { useAppContext } from '../../context/AppContext';
-import { TIME_SLOTS } from '../../constants';
-import type { StandardPattern } from '../../types';
+import { useAppContext } from '../../context/AppContext.tsx';
+import { TIME_SLOTS } from '../../constants.ts';
+import type { StandardPattern } from '../../types.ts';
 import { Save } from 'lucide-react';
 
 export default function StandardPatternManager() {

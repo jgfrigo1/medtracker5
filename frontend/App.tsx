@@ -1,12 +1,12 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { useAppContext } from './context/AppContext';
-import LoginScreen from './components/auth/LoginScreen';
-import Calendar from './components/calendar/Calendar';
-import DataInputForm from './components/input/DataInputForm';
-import DataDisplay from './components/output/DataDisplay';
-import MedicationManager from './components/medication/MedicationManager';
-import StandardPatternManager from './components/medication/StandardPatternManager';
+import { useAppContext } from './context/AppContext.tsx';
+import LoginScreen from './components/auth/LoginScreen.tsx';
+import Calendar from './components/calendar/Calendar.tsx';
+import DataInputForm from './components/input/DataInputForm.tsx';
+import DataDisplay from './components/output/DataDisplay.tsx';
+import MedicationManager from './components/medication/MedicationManager.tsx';
+import StandardPatternManager from './components/medication/StandardPatternManager.tsx';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { Calendar as CalendarIcon, List as ListIcon, ClipboardList as ClipboardListIcon, BarChart2 as BarChart2Icon, Edit as EditIcon, Power as PowerIcon, User as UserIcon } from 'lucide-react';
