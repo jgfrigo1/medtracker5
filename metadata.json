@@ -1,0 +1,5 @@
+{
+  "name": "Monitor de Salud Diario",
+  "description": "Una aplicación web para registrar y visualizar datos de salud diarios, incluyendo valores numéricos, medicación y comentarios, con acceso protegido por contraseña y en español.",
+  "requestFramePermissions": []
+}
